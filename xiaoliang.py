@@ -1,6 +1,4 @@
 import xlrd
-# 1. 打开工作簿
-# wd = xlrd.open_workbook(r"2020年每个月的销售情况.xlsx",encoding_override=True)
 book=xlrd.open_workbook(r"E:\Pythonevn\2020年每个月的销售情况.xlsx",encoding_override=True)
 sheet1 = book.sheet_by_index(0)
 rows,cols = sheet1.nrows,sheet1.ncols
